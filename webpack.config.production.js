@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "docs"),
     filename: "bundle.js",
-    publicPath: "/dist/"
+    publicPath: "/testing-101/"
   },
   plugins: [
     new webpack.DefinePlugin({
