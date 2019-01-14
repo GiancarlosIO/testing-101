@@ -83,7 +83,6 @@ export default class Presentation extends React.Component {
             <ListItemCustom>Unit tests</ListItemCustom>
             <ListItemCustom>Integration Tests</ListItemCustom>
             <ListItemCustom>End-To-End (a.k.a. Funcional tests)</ListItemCustom>
-            <ListItemCustom>Ayuda a trabajar en equipo</ListItemCustom>
             <ListItemCustom>Visual testing</ListItemCustom>
           </List>
         </Slide>
