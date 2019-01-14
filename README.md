@@ -1,1 +1,2 @@
-# Slides for my talk "Testing 101" in crehana
+# Slides for my talk "Testing 101" in [Crehana](https://crehana.com/cursos)
+
