@@ -6,7 +6,13 @@
   ],
   "plugins": [
     "react-hot-loader/babel",
-    "transform-decorators-legacy"
+    "transform-decorators-legacy",
+    ["prismjs", {
+      "languages": ["javascript", "css", "markup", "jsx"],
+      "plugins": ["line-numbers", "highlight-keywords"],
+      "theme": "tomorrow",
+      "css": true
+    }]
   ],
   "env": {
     "production": {

@@ -1,0 +1,10 @@
+  it('should match snapshot', () => {
+    const { container } = render(<CartCount count={5} />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('should display the correct number', () => {
+    const { getByTestId } = render(<CartCount count={1} />);
+
+    expect(getByTestId('number-display').textContent).toBe('1');
+  });
