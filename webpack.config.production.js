@@ -2,6 +2,7 @@
 
 var path = require("path");
 var webpack = require("webpack");
+var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: [
@@ -14,6 +15,9 @@ module.exports = {
     publicPath: "/testing-101/"
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html'
+    }),
     new webpack.DefinePlugin({
       "process.env": {
         "NODE_ENV": JSON.stringify("production")
